@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            img {
+                width: 150px;
+                height: 150px;
+                margin: 10px;
+            }
+            button {
+                margin: 5px;
+                padding: 10px 15px;
+                font-size: 14px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>What Can JavaScript Do?</h2>
+        <p>JavaScript can change HTML attribute values.</p>
+        <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+        
+        <button onclick="document.getElementById('myImage').src='/e0fd25f9127a9a109a0648c83ee61643-removebg-preview.png'">
+            Turn on the light
+        </button>
+        
+        <img id="myImage" src="pic_bulboff.gif">
+        
+        <button onclick="document.getElementById('myImage').src='/png-clipart-creative-bulb-lightbulb-energy-saving-lamps-thumbnail-removebg-preview.png'">
+            Turn off the light
+        </button>
+    </body>
+</html>
